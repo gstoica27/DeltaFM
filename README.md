@@ -20,7 +20,7 @@
 <b>Summary</b>: We propose Contrastive Flow Matching, a simple extension to the flow matching objective which reduces training iterations and denoising steps while improving generation quality.
 
 ### Awknowledgement
-This repository heavily built off of [REPA](https://github.com/sihyun-yu/REPA/tree/main) repository. Nearly all our files are the same as theirs, with the exception of a few scripts \& modifications. 
+This repository is heavily built off of [REPA](https://github.com/sihyun-yu/REPA/tree/main) repository. Nearly all our files are the same as theirs, with the exception of a few scripts \& modifications. 
 
 
 ### 1. Environment setup
