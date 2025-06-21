@@ -55,7 +55,7 @@ accelerate launch train.py \
   --contrastive-weight=0.05 \ # Specify the penalty (referred to as lambda in our work) to apply on the contrastive term
   --resolution 256
 ```
-This script with automatically generate an experiment name based on the arguments passed, and save logs and checkpoints to the "output-dir". All remaining arguments match those of REPA. To run ImageNet512x512, please follow the procedure in REPA, and simply assign the "contrastive" argument to "--loss-type"
+This script will automatically generate an experiment name based on the arguments passed, and save logs and checkpoints to the "output-dir". All remaining arguments match those of REPA. To run ImageNet512x512, please follow the procedure in REPA, and simply assign the "contrastive" argument to "--loss-type"
 
 ### 4. 
 Our generation procedure is nearly equivalent to that of REPA, with a couple minor changes. Specifically, we alter the generation script to account for interference between CFG and Contrastive Flow Matching. 
@@ -94,6 +94,10 @@ torchrun --nnodes=1 --nproc_per_node=8 --master-port 29501 generate.py \
   --cfg-scale=1.0 \
   --sample-dir [SAMPLES_SAVE_DIR]
 ```
+
+### Model Checkpoints
+We have uploaded our REPA SiT-XL/2 models at 256x256 and 512x512 resolutions [here](https://huggingface.co/gstoica3/DeltaFM/tree/main).
+
 ### BibTex
 ```bibtex
 @misc{stoica2025contrastive,
