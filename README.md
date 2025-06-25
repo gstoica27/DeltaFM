@@ -1,6 +1,6 @@
 ![DeltaFM Logo](assets/deltafm.png)
 
-<h1 align="center"> Contrastive Flow Matching</h1>
+<h1 align="center"> [ICCV 2025] Contrastive Flow Matching</h1>
 
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.05350-b31b1b.svg)](https://arxiv.org/abs/2506.05350)&nbsp;
 
